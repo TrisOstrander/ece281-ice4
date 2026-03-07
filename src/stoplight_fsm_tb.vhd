@@ -86,9 +86,9 @@ begin
           i_C => w_C,
           i_reset => w_reset,
           i_clk => w_clk,
-          o_R => w_stoplight(2),
+          o_R => w_stoplight(0),
           o_Y => w_stoplight(1),
-          o_G => w_stoplight(0)
+          o_G => w_stoplight(2)
         );
 	----------------------------------------------------------------
   
